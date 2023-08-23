@@ -1,7 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3>Blog App</h3>
+
+<h3><b>Blog App</b></h3>
 
 </div>
 
@@ -11,16 +12,21 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [:question: FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -31,21 +37,36 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Server</summary>
   <ul>
-    <li>Rails</li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Creating a data model.**
+- **Migration Files.**
+- **Data Models.**
+- **Routes and Controllers.**
+- **Wireframe View**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
@@ -53,16 +74,46 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- A basic understanding of Ruby and Git
+- `Ruby`
+- `Rails`
+- `Code editor (VSCode, RubyMine)`
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone git@github.com:Bifabig/blog-app-rails.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd my-project
+  bundle install
+```
 
 ### Usage
 
-1. Install Ruby
-2. Clone this repo
+To run the project, execute the following command:
 
+```sh
+  rails server
 ```
-git clone git@github.com:Bifabig/blog-app-rails.git
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  rspec spec
 ```
+
+### Deployment
+
+You can deploy this project using your own deployment solution
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +133,7 @@ git clone git@github.com:Bifabig/blog-app-rails.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Validations and Model specs.**
+- **Add input form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +143,7 @@ git clone git@github.com:Bifabig/blog-app-rails.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Bifabig/blog-app-rails/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +151,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Please support this project and be a part of something meaningful and impactful. Your contribution can make a significant difference and help us achieve our goals faster.
+If you like this project consider adding a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,19 +159,7 @@ Please support this project and be a part of something meaningful and impactful.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thank you to Microverse and all the code reviewers!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## :question: FAQ <a name="faq"></a>
-
-- **Can I fork and reuse this repository?**
-
-Absolutely! Please feel free to fork and reuse this repository for your own projects.
-
-- **Is it okay to improve this repository? Will my changes be accepted?**
-
-Definitely! We welcome any improvements or new ideas you may have. If your changes are good and align with the project's goals, we would be happy to accept them.
+I would like to thank [Microverse](https://bit.ly/MicroverseTN)..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

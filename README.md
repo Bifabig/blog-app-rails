@@ -34,12 +34,18 @@
   <ul>
     <li>Rails</li>
   </ul>
+  <ul>
+    <li>PostgreSQL</li>
+  </ul>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Creating a data model.**
+- **Migration Files.**
+- **Data Models.**
+- **Routes and Controllers.**
+- **Wireframe View**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -49,19 +55,39 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
-- A basic understanding of Ruby and Git
-
-### Usage
-
 1. Install Ruby
 2. Clone this repo
 
 ```
 git clone git@github.com:Bifabig/blog-app-rails.git
+```
+
+3. cd my-project
+
+```
+bundle install
+```
+
+### Prerequisites
+
+In order to run this project you need:
+
+- A basic understanding of Ruby, Rails, PostgreSQL and Git
+
+### Usage
+
+To run the project, execute the following command:
+
+```
+rails s
+```
+
+### Run Tests
+
+To run tests, run the following command:
+
+```
+rspec spec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -82,7 +108,7 @@ git clone git@github.com:Bifabig/blog-app-rails.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Validations and Model specs.**
+- **Add input form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

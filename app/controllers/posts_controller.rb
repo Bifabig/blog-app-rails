@@ -16,6 +16,8 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.find(params[:id])
+    @current_user = current_user
+    @like = Like.new
   end
 
   def new

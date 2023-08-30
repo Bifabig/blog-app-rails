@@ -62,6 +62,7 @@
 - **Routes and Controllers.**
 - **Wireframe View**
 - **Integration Test**
+- **Authentication**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +141,7 @@ You can deploy this project using your own deployment solution
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Authentication**
+- **Authorization**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

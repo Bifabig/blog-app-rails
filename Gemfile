@@ -76,4 +76,4 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 gem 'rails-controller-testing', '~> 0.0.3'
 
-gem "devise", "~> 4.9"
+gem 'devise', '~> 4.9'

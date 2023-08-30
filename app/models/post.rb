@@ -10,6 +10,12 @@ class Post < ApplicationRecord
 
   before_validation :set_counter_to_zero
 
+  def excerpt
+    return text unless text.length > 50
+
+    "#{text.slice(0, 50)} ..."
+  end
+
   def set_counter_to_zero
     self.comments_counter = 0 if comments_counter.nil?
     self.likes_counter = 0 if likes_counter.nil?

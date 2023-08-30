@@ -61,6 +61,7 @@
 - **Data Models.**
 - **Routes and Controllers.**
 - **Wireframe View**
+- **Integration Test**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,13 +128,24 @@ You can deploy this project using your own deployment solution
 - Twitter: [@biftu94](https://twitter.com/biftu94)
 - LinkedIn: [Biftu Girma](https://www.linkedin.com/in/biftu-girma/)
 
+👤 **Yousef Badr**
+
+- GitHub: [yousef_badr](https://github.com/ybadr99)
+- Linkedin: [yousef_badr](https://www.linkedin.com/in/yousef-mohamed-badr)
+
+👤 **Tamoor Saeed**
+
+- GitHub: [@githubhandle](https://github.com/tamoorsaeed22)
+- Twitter: [@twitterhandle](https://www.linkedin.com/in/tamoor-saeed-58912a233/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tamoorsaeed/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add input form**
+- **Authentication**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

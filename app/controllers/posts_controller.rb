@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  load_and_authorize_resource
+
   def index
     page = params[:page] || 1
     per_page = 10
@@ -11,7 +13,7 @@ class PostsController < ApplicationController
       .limit(per_page)
 
     @total_pages = (Post.count.to_f / per_page).ceil
-    @author = @posts.first.author
+    @author = @posts.first.author unless @posts.first.nil?
   end
 
   def show
@@ -38,6 +40,12 @@ class PostsController < ApplicationController
       flash.now[:error] = 'error: question could not be saved'
       redirect_to new_user_post_path
     end
+  end
+
+  def destroy
+    @current_user = current_user
+    @current_user.posts.destroy(params[:id])
+    redirect_to "/users/#{params[:user_id]}/posts"
   end
 
   private

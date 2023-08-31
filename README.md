@@ -63,6 +63,7 @@
 - **Wireframe View**
 - **Integration Test**
 - **Authentication**
+- **Authorization**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +142,7 @@ You can deploy this project using your own deployment solution
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Authorization**
+- **Add API Endpoints**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

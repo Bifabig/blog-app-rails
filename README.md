@@ -64,6 +64,7 @@
 - **Integration Test**
 - **Authentication**
 - **Authorization**
+- **API Endpoints**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +143,7 @@ You can deploy this project using your own deployment solution
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add API Endpoints**
+- **make the blog app full stack by adding a front-end framework**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
